@@ -1,0 +1,33 @@
+# Local dependencies, builds, and runtime state
+node_modules/
+dist/
+.wrangler/
+.cache/
+coverage/
+tmp/
+.DS_Store
+*.log
+*.pid
+__pycache__/
+*.py[cod]
+
+# Credentials and local environment configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# Local video-production dependencies and unedited screen recordings
+artifacts/demo-tools/
+artifacts/demo/raw/
+artifacts/demo/review/
+
+# Private contact sheet; public team credits are in TEAM.md
+output/pdf/We-Need-a-Name-Team-Members.pdf

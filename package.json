@@ -1,0 +1,23 @@
+{
+  "name": "wnam",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build && node scripts/build-worker.mjs",
+    "dev:full": "wrangler pages dev dist --port 8788",
+    "dev:ai": "wrangler pages dev dist --port 8788 --ai AI",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@cortex-js/compute-engine": "^0.55.6",
+    "mathlive": "^0.109.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "vite": "^7.1.7",
+    "wrangler": "^4.144.0"
+  }
+}

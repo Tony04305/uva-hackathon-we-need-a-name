@@ -1,0 +1,12 @@
+{
+  "name": "wnam",
+  "pages_build_output_dir": "dist",
+  "compatibility_date": "2026-09-01",
+  "d1_databases": [
+    {
+      "binding": "LEADERBOARD_DB",
+      "database_name": "wnam-leaderboard",
+      "database_id": "08ac2c4d-319d-4a8d-b9f3-cb83a3876231"
+    }
+  ]
+}
