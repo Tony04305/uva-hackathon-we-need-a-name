@@ -1,0 +1,150 @@
+{
+  "duration": 57.0,
+  "segments": [
+    {
+      "name": "welcome",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/01-welcome.mov",
+      "in": 4.8,
+      "duration": 5,
+      "caption": 0
+    },
+    {
+      "name": "modules",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 6,
+      "duration": 4,
+      "caption": 1
+    },
+    {
+      "name": "math-first",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 17.2,
+      "duration": 6,
+      "caption": 2
+    },
+    {
+      "name": "math-second",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 36,
+      "duration": 4,
+      "caption": 3
+    },
+    {
+      "name": "math-third",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 55.2,
+      "duration": 5,
+      "caption": 4
+    },
+    {
+      "name": "level-up",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 68.2,
+      "duration": 3,
+      "caption": 4
+    },
+    {
+      "name": "rarities",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 86,
+      "duration": 3,
+      "caption": 5
+    },
+    {
+      "name": "collection",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 95.5,
+      "duration": 3,
+      "caption": 5
+    },
+    {
+      "name": "econ-scenario",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 106,
+      "duration": 2.5,
+      "caption": 6
+    },
+    {
+      "name": "econ-predictions",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 110,
+      "duration": 2,
+      "caption": 6
+    },
+    {
+      "name": "econ-feedback",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 121,
+      "duration": 3.5,
+      "caption": 6
+    },
+    {
+      "name": "ai-helper",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 135,
+      "duration": 8,
+      "caption": 7
+    },
+    {
+      "name": "leaderboard",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 170,
+      "duration": 5,
+      "caption": 8
+    },
+    {
+      "name": "end-card",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/end-card.png",
+      "in": 0,
+      "duration": 3,
+      "caption": null
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 5,
+      "text": "Choose a name. Start learning.\nA random four-digit tag. No account needed."
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "text": "Math and economics. Seven levels each."
+    },
+    {
+      "start": 9,
+      "end": 15,
+      "text": "Write answers in real math notation."
+    },
+    {
+      "start": 15,
+      "end": 19,
+      "text": "Build your streak. Watch your plant grow."
+    },
+    {
+      "start": 19,
+      "end": 27,
+      "text": "Three correct answers. A plant. A new level."
+    },
+    {
+      "start": 27,
+      "end": 33,
+      "text": "30 plants. Five rarities unlocked by level.\nExotic plants: 5% chance, only at level 7."
+    },
+    {
+      "start": 33,
+      "end": 41.0,
+      "text": "Explore supply, demand and economic shocks.\nPredict the effects. Explain why."
+    },
+    {
+      "start": 41.0,
+      "end": 49.0,
+      "text": "UVA AI gives hints.\nAsking resets your streak to zero."
+    },
+    {
+      "start": 49.0,
+      "end": 54.0,
+      "text": "Live leaderboard.\nRarer discoveries earn more points."
+    }
+  ]
+}

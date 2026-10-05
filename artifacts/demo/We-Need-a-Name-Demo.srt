@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:05,000
+Choose a name. Start learning.
+A random four-digit tag. No account needed.
+
+2
+00:00:05,000 --> 00:00:09,000
+Math and economics. Seven levels each.
+
+3
+00:00:09,000 --> 00:00:15,000
+Write answers in real math notation.
+
+4
+00:00:15,000 --> 00:00:19,000
+Build your streak. Watch your plant grow.
+
+5
+00:00:19,000 --> 00:00:27,000
+Three correct answers. A plant. A new level.
+
+6
+00:00:27,000 --> 00:00:33,000
+30 plants. Five rarities unlocked by level.
+Exotic plants: 5% chance, only at level 7.
+
+7
+00:00:33,000 --> 00:00:41,000
+Explore supply, demand and economic shocks.
+Predict the effects. Explain why.
+
+8
+00:00:41,000 --> 00:00:49,000
+UVA AI gives hints.
+Asking resets your streak to zero.
+
+9
+00:00:49,000 --> 00:00:54,000
+Live leaderboard.
+Rarer discoveries earn more points.

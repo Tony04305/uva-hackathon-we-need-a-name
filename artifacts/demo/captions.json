@@ -1,0 +1,76 @@
+{
+  "duration_seconds": 57,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "caption_style": {
+    "font": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo-tools/fonts/NotoSans-Bold.ttf",
+    "font_size": 54,
+    "detail_font_size": 50,
+    "color": "#ffffff",
+    "detail_color": "#d9e1d3",
+    "band_color": "#222722",
+    "band_top": 890,
+    "band_height": 190,
+    "max_lines": 2,
+    "horizontal_padding": 100,
+    "alignment": "center"
+  },
+  "captions": [
+    {
+      "start": 0,
+      "end": 5,
+      "text": "Choose a name. Start learning.",
+      "detail": "A random four-digit tag. No account needed."
+    },
+    {
+      "start": 5,
+      "end": 9,
+      "text": "Math and economics. Seven levels each."
+    },
+    {
+      "start": 9,
+      "end": 14,
+      "text": "Write answers in real math notation."
+    },
+    {
+      "start": 14,
+      "end": 20,
+      "text": "Build your streak. Watch your plant grow."
+    },
+    {
+      "start": 20,
+      "end": 27,
+      "text": "Three correct answers. A plant. A new level."
+    },
+    {
+      "start": 27,
+      "end": 33,
+      "text": "30 plants. Five rarities unlocked by level.",
+      "detail": "Exotic plants: 5% chance, only at level 7."
+    },
+    {
+      "start": 33,
+      "end": 41,
+      "text": "Explore supply, demand and economic shocks.",
+      "detail": "From closed economies to interacting global forces."
+    },
+    {
+      "start": 41,
+      "end": 49,
+      "text": "UVA AI gives hints. Asking resets your streak."
+    },
+    {
+      "start": 49,
+      "end": 54,
+      "text": "Rarer discoveries earn more leaderboard points."
+    },
+    {
+      "start": 54,
+      "end": 57,
+      "text": "",
+      "scene": "end-card.png"
+    }
+  ]
+}

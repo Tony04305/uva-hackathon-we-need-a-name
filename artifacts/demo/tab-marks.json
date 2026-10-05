@@ -1,0 +1,94 @@
+[
+  {
+    "scene": "start",
+    "time": 1790859192747
+  },
+  {
+    "scene": "home-econ",
+    "time": 1790859201198
+  },
+  {
+    "scene": "math-open",
+    "time": 1790859204308
+  },
+  {
+    "scene": "math-answer-1",
+    "time": 1790859210701
+  },
+  {
+    "scene": "math-submit-1",
+    "time": 1790859213967
+  },
+  {
+    "scene": "math-answer-2",
+    "time": 1790859224999
+  },
+  {
+    "scene": "math-submit-2",
+    "time": 1790859230085
+  },
+  {
+    "scene": "math-answer-3",
+    "time": 1790859243178
+  },
+  {
+    "scene": "math-submit-3",
+    "time": 1790859249023
+  },
+  {
+    "scene": "level-up",
+    "time": 1790859260883
+  },
+  {
+    "scene": "collection",
+    "time": 1790859277872
+  },
+  {
+    "scene": "collection-earned",
+    "time": 1790859287918
+  },
+  {
+    "scene": "econ-open",
+    "time": 1790859298269
+  },
+  {
+    "scene": "econ-predictions",
+    "time": 1790859303310
+  },
+  {
+    "scene": "econ-reason",
+    "time": 1790859307143
+  },
+  {
+    "scene": "econ-submit",
+    "time": 1790859314767
+  },
+  {
+    "scene": "ai-open",
+    "time": 1790859322855
+  },
+  {
+    "scene": "ai-message",
+    "time": 1790859328014
+  },
+  {
+    "scene": "ai-send",
+    "time": 1790859331736
+  },
+  {
+    "scene": "leaderboard-load",
+    "time": 1790859342961
+  },
+  {
+    "scene": "leaderboard",
+    "time": 1790859352451
+  },
+  {
+    "scene": "leaderboard-framed",
+    "time": 1790859362251
+  },
+  {
+    "scene": "stop",
+    "time": 1790859377265
+  }
+]
