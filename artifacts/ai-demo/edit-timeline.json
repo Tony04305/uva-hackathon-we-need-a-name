@@ -1,0 +1,126 @@
+{
+  "duration": 58,
+  "capture_note": "Screenshot segments are genuine live application captures. Video segments are genuine prior screen recordings. Captions added in editing.",
+  "segments": [
+    {
+      "name": "home",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/captures/home.png",
+      "duration": 4,
+      "capture": true,
+      "overlay": "overlays/caption-00-concept.png",
+      "crop": "crop=920:720:180:0"
+    },
+    {
+      "name": "econ-scenario",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/captures/econ-scenario.png",
+      "duration": 5,
+      "capture": true,
+      "overlay": "overlays/caption-01-economic-shock.png"
+    },
+    {
+      "name": "econ-writing",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/captures/econ-writing.png",
+      "duration": 2,
+      "capture": true,
+      "overlay": "overlays/caption-02-explanation.png",
+      "crop": "crop=680:540:110:180"
+    },
+    {
+      "name": "econ-written",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/captures/econ-written.png",
+      "duration": 4,
+      "capture": true,
+      "overlay": "overlays/caption-02-explanation.png",
+      "crop": "crop=680:540:110:180"
+    },
+    {
+      "name": "econ-grading",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/captures/econ-grading.png",
+      "duration": 1,
+      "capture": true,
+      "overlay": "overlays/caption-03-ai-grading.png",
+      "crop": "crop=680:610:110:20"
+    },
+    {
+      "name": "econ-grade",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/captures/econ-grade.png",
+      "duration": 7,
+      "capture": true,
+      "overlay": "overlays/caption-03-ai-grading.png",
+      "crop": "crop=670:550:120:160"
+    },
+    {
+      "name": "econ-chat",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/captures/econ-chat.png",
+      "duration": 3,
+      "capture": true,
+      "overlay": "overlays/caption-04-econ-walkthrough.png",
+      "crop": "crop=430:310:835:330"
+    },
+    {
+      "name": "econ-walkthrough",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/captures/econ-walkthrough.png",
+      "duration": 4,
+      "capture": true,
+      "overlay": "overlays/caption-04-econ-walkthrough.png",
+      "crop": "crop=430:510:835:15"
+    },
+    {
+      "name": "math-hint",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/captures/math-hint.png",
+      "duration": 4,
+      "capture": true,
+      "overlay": "overlays/caption-05-math-helper.png",
+      "crop": "crop=1170:550:100:120"
+    },
+    {
+      "name": "math-walkthrough",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/captures/math-walkthrough.png",
+      "duration": 5,
+      "capture": true,
+      "overlay": "overlays/caption-05-math-helper.png",
+      "crop": "crop=1170:630:100:15"
+    },
+    {
+      "name": "grow-plant",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 55.2,
+      "duration": 4,
+      "overlay": "overlays/caption-06-growth.png"
+    },
+    {
+      "name": "level-up",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 68.2,
+      "duration": 3,
+      "overlay": "overlays/caption-06-growth.png"
+    },
+    {
+      "name": "collection-tour",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 86,
+      "duration": 2,
+      "overlay": "overlays/caption-07-collection.png"
+    },
+    {
+      "name": "collection-earned",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 95.5,
+      "duration": 2,
+      "overlay": "overlays/caption-07-collection.png"
+    },
+    {
+      "name": "leaderboard",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo/raw/tab-demo-145617.webm",
+      "in": 170,
+      "duration": 4,
+      "overlay": "overlays/caption-08-leaderboard.png"
+    },
+    {
+      "name": "end-card",
+      "source": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/end-card.png",
+      "duration": 4,
+      "still": true
+    }
+  ]
+}

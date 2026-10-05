@@ -1,0 +1,101 @@
+{
+  "duration_seconds": 58,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "caption_style": {
+    "font": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/demo-tools/fonts/NotoSans-Bold.ttf",
+    "font_size": 54,
+    "detail_font_size": 43,
+    "color": "#ffffff",
+    "detail_color": "#d9e1d3",
+    "band_color": "#222722",
+    "band_top": 890,
+    "band_height": 190,
+    "horizontal_padding": 100,
+    "alignment": "center"
+  },
+  "captions": [
+    {
+      "id": "concept",
+      "start": 0,
+      "end": 4,
+      "text": "Learning with UVA AI, built into every question.",
+      "detail": "We Need a Name \u00b7 Mathematics + Economics",
+      "overlay": "overlays/caption-00-concept.png"
+    },
+    {
+      "id": "economic-shock",
+      "start": 4,
+      "end": 9,
+      "text": "A real economic shock. Your prediction.",
+      "detail": "Explore supply, demand, and stock prices.",
+      "overlay": "overlays/caption-01-economic-shock.png"
+    },
+    {
+      "id": "explanation",
+      "start": 9,
+      "end": 15,
+      "text": "Type it. Or say it. Explain in your own words.",
+      "detail": "Review your explanation, then submit to UVA AI.",
+      "overlay": "overlays/caption-02-explanation.png"
+    },
+    {
+      "id": "ai-grading",
+      "start": 15,
+      "end": 23,
+      "text": "UVA AI reads and grades your explanation.",
+      "detail": "A score, clear feedback, and a next step.",
+      "overlay": "overlays/caption-03-ai-grading.png"
+    },
+    {
+      "id": "econ-walkthrough",
+      "start": 23,
+      "end": 30,
+      "text": "Ask UVA AI about the question in front of you.",
+      "detail": "Connect the shock to each effect, step by step.",
+      "overlay": "overlays/caption-04-econ-walkthrough.png"
+    },
+    {
+      "id": "math-helper",
+      "start": 30,
+      "end": 39,
+      "text": "Hints when stuck. Walkthroughs after you try.",
+      "detail": "UVA AI supports mathematical reasoning, too.",
+      "overlay": "overlays/caption-05-math-helper.png"
+    },
+    {
+      "id": "growth",
+      "start": 39,
+      "end": 46,
+      "text": "Three correct in a row. Grow a plant. Level up.",
+      "detail": "Seven levels turn understanding into progress.",
+      "overlay": "overlays/caption-06-growth.png"
+    },
+    {
+      "id": "collection",
+      "start": 46,
+      "end": 50,
+      "text": "Discover plants. Build your collection.",
+      "detail": "30 plants. Five rarities. Exotic plants unlock at level 7.",
+      "overlay": "overlays/caption-07-collection.png"
+    },
+    {
+      "id": "leaderboard",
+      "start": 50,
+      "end": 54,
+      "text": "Keep growing. Climb the leaderboard.",
+      "detail": "Rarer discoveries earn more points.",
+      "overlay": "overlays/caption-08-leaderboard.png"
+    },
+    {
+      "id": "end-card",
+      "start": 54,
+      "end": 58,
+      "text": "",
+      "detail": "",
+      "scene": "end-card.png"
+    }
+  ]
+}

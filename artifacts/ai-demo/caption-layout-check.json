@@ -1,0 +1,114 @@
+{
+  "all_fit": true,
+  "safe_width_px": 1720,
+  "measurements": [
+    {
+      "scene": "concept",
+      "text": "Learning with UVA AI, built into every question.",
+      "font_size": 54,
+      "width_px": 1279.0
+    },
+    {
+      "scene": "concept",
+      "text": "We Need a Name \u00b7 Mathematics + Economics",
+      "font_size": 43,
+      "width_px": 956.0
+    },
+    {
+      "scene": "economic-shock",
+      "text": "A real economic shock. Your prediction.",
+      "font_size": 54,
+      "width_px": 1062.5
+    },
+    {
+      "scene": "economic-shock",
+      "text": "Explore supply, demand, and stock prices.",
+      "font_size": 43,
+      "width_px": 893.5
+    },
+    {
+      "scene": "explanation",
+      "text": "Type it. Or say it. Explain in your own words.",
+      "font_size": 54,
+      "width_px": 1184.5
+    },
+    {
+      "scene": "explanation",
+      "text": "Review your explanation, then submit to UVA AI.",
+      "font_size": 43,
+      "width_px": 1043.0
+    },
+    {
+      "scene": "ai-grading",
+      "text": "UVA AI reads and grades your explanation.",
+      "font_size": 54,
+      "width_px": 1151.0
+    },
+    {
+      "scene": "ai-grading",
+      "text": "A score, clear feedback, and a next step.",
+      "font_size": 43,
+      "width_px": 857.0
+    },
+    {
+      "scene": "econ-walkthrough",
+      "text": "Ask UVA AI about the question in front of you.",
+      "font_size": 54,
+      "width_px": 1240.5
+    },
+    {
+      "scene": "econ-walkthrough",
+      "text": "Connect the shock to each effect, step by step.",
+      "font_size": 43,
+      "width_px": 994.0
+    },
+    {
+      "scene": "math-helper",
+      "text": "Hints when stuck. Walkthroughs after you try.",
+      "font_size": 54,
+      "width_px": 1245.0
+    },
+    {
+      "scene": "math-helper",
+      "text": "UVA AI supports mathematical reasoning, too.",
+      "font_size": 43,
+      "width_px": 994.0
+    },
+    {
+      "scene": "growth",
+      "text": "Three correct in a row. Grow a plant. Level up.",
+      "font_size": 54,
+      "width_px": 1232.5
+    },
+    {
+      "scene": "growth",
+      "text": "Seven levels turn understanding into progress.",
+      "font_size": 43,
+      "width_px": 1001.0
+    },
+    {
+      "scene": "collection",
+      "text": "Discover plants. Build your collection.",
+      "font_size": 54,
+      "width_px": 1009.0
+    },
+    {
+      "scene": "collection",
+      "text": "30 plants. Five rarities. Exotic plants unlock at level 7.",
+      "font_size": 43,
+      "width_px": 1138.5
+    },
+    {
+      "scene": "leaderboard",
+      "text": "Keep growing. Climb the leaderboard.",
+      "font_size": 54,
+      "width_px": 1015.5
+    },
+    {
+      "scene": "leaderboard",
+      "text": "Rarer discoveries earn more points.",
+      "font_size": 43,
+      "width_px": 760.0
+    }
+  ]
+}
