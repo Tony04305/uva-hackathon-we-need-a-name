@@ -1,0 +1,109 @@
+{
+  "duration_seconds": 58,
+  "frames": 1740,
+  "fps": 30,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "decode_passed": true,
+  "size_bytes": 1509546,
+  "scenes": [
+    {
+      "scene": "home",
+      "start": 0,
+      "duration": 4,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/00-home.png"
+    },
+    {
+      "scene": "econ-scenario",
+      "start": 4,
+      "duration": 5,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/01-econ-scenario.png"
+    },
+    {
+      "scene": "econ-writing",
+      "start": 9,
+      "duration": 2,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/02-econ-writing.png"
+    },
+    {
+      "scene": "econ-written",
+      "start": 11,
+      "duration": 4,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/03-econ-written.png"
+    },
+    {
+      "scene": "econ-grading",
+      "start": 15,
+      "duration": 1,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/04-econ-grading.png"
+    },
+    {
+      "scene": "econ-grade",
+      "start": 16,
+      "duration": 7,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/05-econ-grade.png"
+    },
+    {
+      "scene": "econ-chat",
+      "start": 23,
+      "duration": 3,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/06-econ-chat.png"
+    },
+    {
+      "scene": "econ-walkthrough",
+      "start": 26,
+      "duration": 4,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/07-econ-walkthrough.png"
+    },
+    {
+      "scene": "math-hint",
+      "start": 30,
+      "duration": 4,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/08-math-hint.png"
+    },
+    {
+      "scene": "math-walkthrough",
+      "start": 34,
+      "duration": 5,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/09-math-walkthrough.png"
+    },
+    {
+      "scene": "grow-plant",
+      "start": 39,
+      "duration": 4,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/10-grow-plant.png"
+    },
+    {
+      "scene": "level-up",
+      "start": 43,
+      "duration": 3,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/11-level-up.png"
+    },
+    {
+      "scene": "collection-tour",
+      "start": 46,
+      "duration": 2,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/12-collection-tour.png"
+    },
+    {
+      "scene": "collection-earned",
+      "start": 48,
+      "duration": 2,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/13-collection-earned.png"
+    },
+    {
+      "scene": "leaderboard",
+      "start": 50,
+      "duration": 4,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/14-leaderboard.png"
+    },
+    {
+      "scene": "end-card",
+      "start": 54,
+      "duration": 4,
+      "qa_frame": "/Users/keswch/Documents/ChatGPT/UVA hackathon/artifacts/ai-demo/review/15-end-card.png"
+    }
+  ]
+}
