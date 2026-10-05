@@ -1,0 +1,16 @@
+<!doctype html><meta charset="utf-8"><title>Demo recorder</title>
+<style>body{font:20px system-ui;padding:60px;background:#f8f7f1;color:#263126}button{font:inherit;padding:16px 24px;margin:10px}#status{margin:25px 10px}</style>
+<h1>Demo tab recorder</h1><p>Record only the learning app tab. No microphone or system audio.</p>
+<button id="start">Start tab recording</button><button id="stop" disabled>Stop and save</button><p id="status">Ready</p>
+<script>
+let recorder,stream,chunks=[];
+const status=document.querySelector('#status');
+document.querySelector('#start').onclick=async()=>{try{
+stream=await navigator.mediaDevices.getDisplayMedia({video:{displaySurface:'browser',frameRate:30,width:{ideal:1920},height:{ideal:1080}},audio:false,preferCurrentTab:false,selfBrowserSurface:'exclude',surfaceSwitching:'exclude'});
+recorder=new MediaRecorder(stream,{mimeType:'video/webm;codecs=vp9',videoBitsPerSecond:7000000});chunks=[];
+recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};
+recorder.onstop=async()=>{status.textContent='Saving…'; const response=await fetch('/save',{method:'POST',body:new Blob(chunks,{type:'video/webm'})});status.textContent=await response.text();stream.getTracks().forEach(t=>t.stop());document.querySelector('#start').disabled=false;};
+recorder.start(1000);document.querySelector('#start').disabled=true;document.querySelector('#stop').disabled=false;status.textContent='Recording the selected tab';
+}catch(e){status.textContent=e.message;}};
+document.querySelector('#stop').onclick=()=>{document.querySelector('#stop').disabled=true;recorder.stop();};
+</script>
