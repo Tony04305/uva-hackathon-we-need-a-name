@@ -1,0 +1,127 @@
+.econ-panel { min-width: 0; overflow: hidden; padding: 26px 32px 30px; border: 1px solid #e4e6dc; border-radius: 20px; background: #fffefa; box-shadow: 0 6px 24px #3b472c04; }
+.econ-topline { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; margin-bottom: 23px; }
+.econ-level { flex-shrink: 0; padding: 7px 10px; border-radius: 7px; background: #f3ede2; color: #79633f; font-size: 12px; font-weight: 650; line-height: 1.5; }
+.econ-economy { color: #717a6b; font-size: 12px; line-height: 1.5; }
+.econ-complete-label { padding: 5px 9px; border-radius: 6px; background: #edf4e5; color: #4e6e36; font-size: 11px; font-weight: 600; }
+.econ-eyebrow { margin-bottom: 10px; color: #7e826e; font-size: 10px; font-weight: 650; letter-spacing: 1.25px; line-height: 1.7; overflow-wrap: anywhere; }
+.econ-intro h1, .econ-empty h1 { color: #343c32; font-family: 'Manrope', sans-serif; font-size: 27px; font-weight: 600; letter-spacing: -.9px; line-height: 1.35; overflow-wrap: anywhere; }
+.econ-scenario { margin-top: 14px; color: #5f6959; font-size: 16px; line-height: 1.8; overflow-wrap: anywhere; }
+.econ-assumptions { margin: 23px 0 26px; padding: 15px 17px; border: 1px solid #e9e7da; border-radius: 10px; background: #f7f5ed; }
+.econ-assumptions h2 { margin-bottom: 8px; color: #827452; font-size: 11px; font-weight: 650; letter-spacing: .35px; line-height: 1.5; }
+.econ-assumptions ul { display: grid; gap: 4px; margin: 0; padding-left: 17px; color: #787861; font-size: 12px; line-height: 1.65; }
+.econ-assumptions li { padding-left: 2px; overflow-wrap: anywhere; }
+.econ-assumptions li::marker { color: #b0ac8a; }
+.econ-storage-note { margin: 16px 0; padding: 12px 14px; border-radius: 8px; background: #faf0df; color: #8a6b48; font-size: 12px; line-height: 1.6; }
+.econ-form { min-width: 0; }
+.econ-prediction-heading { margin: 24px 0 20px; }
+.econ-prediction-heading h2 { font-family: 'Manrope', sans-serif; font-size: 18px; font-weight: 600; letter-spacing: -.3px; line-height: 1.5; }
+.econ-prediction-heading p, .econ-field-help { margin-top: 5px; color: #7b836e; font-size: 12px; line-height: 1.7; }
+.econ-outcome, .econ-reasoning { min-width: 0; margin: 0 0 23px; padding: 0; border: 0; }
+.econ-outcome legend, .econ-reasoning legend { width: 100%; margin-bottom: 10px; padding: 0; color: #57654b; font-size: 13px; font-weight: 600; line-height: 1.7; overflow-wrap: anywhere; }
+.econ-step { display: inline-grid; place-items: center; width: 20px; height: 20px; margin-right: 8px; border-radius: 50%; background: #eff1e7; color: #899078; font-size: 10px; font-weight: 500; vertical-align: 1px; }
+.econ-outcome-options { display: flex; flex-wrap: wrap; gap: 8px; }
+.econ-option { display: flex; align-items: center; flex: 1 1 120px; gap: 8px; min-width: 0; min-height: 45px; padding: 10px 12px; border: 1px solid #dfe4d5; border-radius: 8px; background: #fdfef9; color: #68765b; font-size: 13px; line-height: 1.6; cursor: pointer; transition: border-color .15s, background .15s; }
+.econ-option > span:not(.econ-option-mark) { min-width: 0; overflow-wrap: anywhere; }
+.econ-option input { flex-shrink: 0; width: 15px; height: 15px; margin: 0; accent-color: #6c8258; cursor: inherit; }
+.econ-option input:focus-visible { outline: 2px solid #bb603f; outline-offset: 4px; }
+.econ-option:has(input:focus-visible) { box-shadow: 0 0 0 3px #d7795520; }
+.econ-option:has(input:checked) { border-color: #9dac89; background: #eff3e6; color: #4d653e; }
+.econ-option:not(:has(input:disabled)):hover { border-color: #a9b699; background: #f3f6ec; }
+.econ-outcome:disabled .econ-option, .econ-reasoning:disabled .econ-option { cursor: default; }
+.econ-option.econ-option-correct { border-color: #afc49a; background: #eef5e7; color: #486e34; }
+.econ-option.econ-option-incorrect { border-color: #dbb293; background: #fcf0e6; color: #916847; }
+.econ-option-mark { flex-shrink: 0; margin-left: auto; color: #68864e; font-size: 15px; font-weight: 600; }
+.econ-reasoning { margin-top: 27px; padding-top: 22px; border-top: 1px solid #e9eadf; }
+.econ-reasoning legend { float: left; margin-bottom: 3px; font-size: 14px; }
+.econ-reasoning legend + .econ-field-help { clear: both; }
+.econ-reason-options { display: grid; gap: 8px; margin-top: 13px; }
+.econ-reason-option { align-items: flex-start; padding: 12px 14px; font-size: 13px; line-height: 1.75; }
+.econ-reason-option input { margin-top: 4px; }
+.econ-outcome-review { margin-top: 10px; padding: 11px 13px; border-left: 2px solid #dbc4aa; color: #817255; font-size: 12px; line-height: 1.75; }
+.econ-outcome-review.econ-review-correct { border-left-color: #bacaa8; color: #718061; }
+.econ-review-choice { margin-bottom: 5px; color: #786646; font-size: 11px; font-weight: 550; }
+.econ-review-choice > span { display: block; color: #61774f; }
+.econ-review-correct .econ-review-choice { color: #5c7848; }
+.econ-outcome-review p, .econ-reason-review { overflow-wrap: anywhere; }
+.econ-reason-review { margin-top: 11px; color: #788166; font-size: 12px; line-height: 1.75; }
+.econ-explanation-box { margin-top: 13px; overflow: hidden; border: 1px solid #cdd7bf; border-radius: 12px; background: #fffefa; }
+.econ-explanation-box:focus-within { border-color: #a3b48f; box-shadow: 0 0 0 3px #9ba88718; }
+.econ-explanation-label { display: block; padding: 13px 15px 0; color: #718263; font-size: 11px; font-weight: 600; }
+.econ-explanation-box textarea { display: block; width: 100%; min-height: 118px; resize: vertical; padding: 10px 15px 15px; border: 0; outline: none; background: transparent; color: #485641; font: inherit; font-size: 14px; line-height: 1.8; }
+.econ-explanation-box textarea::placeholder { color: #9ca491; }
+.econ-explanation-box textarea:disabled { opacity: 1; color: #68765b; }
+.econ-explanation-tools { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; padding: 8px 12px; border-top: 1px solid #edf0e6; background: #f7f9f1; }
+.econ-explanation-tools > span { color: #7c8770; font-size: 11px; }
+.econ-voice-button { display: inline-flex; align-items: center; gap: 6px; min-height: 34px; padding: 5px 8px; border-radius: 6px; color: #657a54; font-size: 12px; }
+.econ-voice-button:not(:disabled):hover { background: #eaf0df; }
+.econ-voice-button[aria-pressed="true"] { background: #f6e9df; color: #a35131; }
+.econ-voice-button:focus-visible { outline: 2px solid #bb603f; outline-offset: 2px; }
+.econ-voice-button:disabled, .econ-give-up:disabled, .econ-primary-button:disabled { opacity: .55; cursor: default; }
+.econ-voice-status { margin-top: 8px; color: #7c8770; font-size: 11px; line-height: 1.7; }
+.econ-voice-status:empty { display: none; }
+.econ-rubric { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 13px; color: #748165; font-size: 10px; line-height: 1.5; }
+.econ-rubric > span:not(.econ-rubric-title) { padding: 4px 7px; border-radius: 5px; background: #f1f4e9; }
+.econ-rubric-title { flex-basis: 100%; margin-bottom: 2px; color: #657655; font-weight: 600; }
+.econ-grade { margin: 14px 0 18px; padding: 15px; border: 1px solid #d4dfc6; border-radius: 9px; background: #fffefa; color: #546447; }
+.econ-grade-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 9px; }
+.econ-grade-heading h3 { font-size: 13px; font-weight: 650; }
+.econ-grade-score { color: #536e3f; font-size: 24px; font-weight: 650; white-space: nowrap; }
+.econ-grade-score > span { color: #8a977b; font-size: 13px; font-weight: 450; }
+.econ-grade > p { font-size: 13px; line-height: 1.8; overflow-wrap: anywhere; }
+.econ-grade-criteria { display: grid; gap: 10px; margin: 13px 0 0; padding: 13px 0 0; border-top: 1px solid #e6ebde; list-style: none; }
+.econ-grade-criteria li > div { display: flex; justify-content: space-between; gap: 10px; color: #667957; font-size: 11px; line-height: 1.6; }
+.econ-grade-criteria li > div > span { flex-shrink: 0; }
+.econ-grade-criteria p { margin-top: 3px; color: #7b846f; font-size: 12px; line-height: 1.7; overflow-wrap: anywhere; }
+.econ-grade-improvement { margin-top: 13px; padding-top: 11px; border-top: 1px solid #e6ebde; }
+.econ-grade-improvement strong { display: block; font-size: 11px; font-weight: 650; }
+.econ-feedback { margin: 22px 0 0; padding: 17px 18px; border-radius: 10px; background: #f8ece2; color: #875b3e; }
+.econ-feedback.econ-feedback-correct { background: #edf4e5; color: #4e6e36; }
+.econ-feedback:focus-visible { outline: 2px solid #9dab86; outline-offset: 4px; }
+.econ-feedback h2 { margin-bottom: 7px; font-size: 15px; font-weight: 600; line-height: 1.65; }
+.econ-feedback > p { font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+.econ-feedback > .econ-streak-note { margin-top: 10px; font-size: 11px; line-height: 1.7; }
+.econ-sources { margin-top: 16px; color: #859075; font-size: 12px; line-height: 1.8; }
+.econ-sources summary { width: fit-content; max-width: 100%; padding: 3px 0; cursor: pointer; }
+.econ-sources summary:focus-visible { outline: 2px solid #bb603f; outline-offset: 4px; }
+.econ-sources ul { margin: 8px 0 0; padding-left: 18px; }
+.econ-sources a { color: #758264; text-decoration: underline; text-decoration-color: #c6cfb7; text-underline-offset: 3px; overflow-wrap: anywhere; }
+.econ-sources a:hover { color: #ad5031; }
+.econ-help { margin-top: 22px; padding-top: 20px; border-top: 1px solid #e9eadf; }
+.econ-icon { display: block; flex-shrink: 0; width: 18px; height: 18px; }
+.econ-give-up { min-height: 42px; padding: 9px 0; color: #9b7853; font-size: 12px; line-height: 1.5; text-decoration: underline; text-decoration-color: #d7bd9f; text-underline-offset: 3px; }
+.econ-give-up:hover { color: #895e39; }
+.econ-reveal-note { margin-top: 2px; color: #929981; font-size: 10px; line-height: 1.6; }
+.econ-submit-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; margin-top: 26px; }
+.econ-submit-note { color: #8b927d; font-size: 11px; line-height: 1.6; }
+.econ-input-error { color: #a04f31; font-size: 13px; line-height: 1.7; }
+.econ-input-error:not(:empty) { margin-top: 16px; }
+.econ-primary-button { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 46px; padding: 12px 18px; border-radius: 9px; background: #c96642; color: #fff; font-size: 14px; font-weight: 550; line-height: 1.5; box-shadow: 0 2px 3px #b1553a10; transition: background .15s; }
+.econ-primary-button:hover { background: #ad5031; }
+.econ-secondary-link { display: inline-flex; align-items: center; min-height: 42px; color: #748263; font-size: 12px; line-height: 1.6; }
+.econ-secondary-link:hover { color: #ad5031; }
+.econ-empty p { margin: 15px 0; color: #717a6b; font-size: 15px; line-height: 1.7; }
+
+@media (max-width: 540px) {
+  .econ-panel { padding: 21px 20px 24px; border-radius: 16px; }
+  .econ-topline { margin-bottom: 19px; }
+  .econ-intro h1, .econ-empty h1 { font-size: 25px; }
+  .econ-scenario { font-size: 15px; line-height: 1.8; }
+  .econ-assumptions { margin: 20px 0 22px; padding: 13px 14px; }
+  .econ-outcome-options { gap: 7px; }
+  .econ-option { flex-basis: calc(50% - 4px); padding: 10px; font-size: 12px; }
+  .econ-reason-option { padding: 11px 12px; font-size: 13px; }
+  .econ-submit-row { align-items: stretch; gap: 11px; }
+  .econ-primary-button { width: 100%; }
+  .econ-submit-note { width: 100%; text-align: center; }
+  .econ-submit-row > .econ-secondary-link { justify-content: center; width: 100%; }
+  .econ-give-up { text-align: left; }
+}
+
+@media (max-width: 359px) {
+  .econ-panel { padding-right: 16px; padding-left: 16px; }
+  .econ-outcome-options { display: grid; grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .econ-option, .econ-primary-button { transition: none; }
+}
